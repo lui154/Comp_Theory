@@ -19,7 +19,7 @@ const itens = [{
 },]
 
 const valorTotal = itens
-		//filtra produtos escolhidos
+	//filtra produtos escolhidos
     .filter(item => (item.tipo === 'comestivel'))
     	//aumento de 5%
     .map(obj => obj.valor *= 1.05)
